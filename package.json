@@ -14,13 +14,9 @@
     "dev": "vite",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build",
-    "build:server": "vite build --config vite.config.server.ts",
     "start": "node dist/server/node-build.mjs",
-    "test": "vitest --run",
-    "format.fix": "prettier --write .",
-    "typecheck": "tsc",
-    "gh-pages:build": "vite build --outDir dist-gh-pages",
-    "gh-pages:deploy": "npm run gh-pages:build && npx gh-pages -d dist-gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "express": "^4.18.2",
