@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * WorkTrackr Dark Theme
+   * Dark-only theme with teal accents
+   */
+  :root {
+    /* WorkTrackr Dark Theme Colors */
+    --background: 213 27% 6%; /* #0D1117 */
+    --foreground: 0 0% 100%; /* #ffffff */
+
+    --card: 213 19% 10%; /* #161B22 */
+    --card-foreground: 0 0% 100%; /* #ffffff */
+
+    --popover: 213 19% 10%; /* #161B22 */
+    --popover-foreground: 0 0% 100%; /* #ffffff */
+
+    --primary: 166 76% 37%; /* #14b8a6 teal */
+    --primary-foreground: 0 0% 100%; /* #ffffff */
+
+    --secondary: 213 19% 15%; /* #21262D */
+    --secondary-foreground: 0 0% 100%; /* #ffffff */
+
+    --muted: 213 19% 15%; /* #21262D */
+    --muted-foreground: 215 13% 65%; /* #8B949E */
+
+    --accent: 166 76% 37%; /* #14b8a6 teal */
+    --accent-foreground: 0 0% 100%; /* #ffffff */
+
+    --destructive: 0 84% 60%; /* #F85149 */
+    --destructive-foreground: 0 0% 100%; /* #ffffff */
+
+    --border: 213 19% 18%; /* #30363D */
+    --input: 213 19% 18%; /* #30363D */
+    --ring: 166 76% 37%; /* #14b8a6 teal */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+}
