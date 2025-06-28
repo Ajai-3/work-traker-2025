@@ -15,7 +15,8 @@
     "build": "vite build",
     "start": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/spa"
+
   },
   "dependencies": {
     "express": "^4.18.2",

@@ -4,12 +4,14 @@ import path from 'path';
 
 export default defineConfig({
   base: "/work-traker-2025/",
+  root: "client", 
   server: {
     host: "::",
     port: 8080,
   },
   build: {
-    outDir: "dist/spa",
+    outDir: "../dist/spa", 
+    emptyOutDir: true,
   },
   plugins: [react()],
   resolve: {
