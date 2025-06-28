@@ -14,7 +14,8 @@
     "dev": "vite",
     "build:client": "vite build",
     "build": "vite build",
-    "deploy": "vite build && gh-pages -d dist"
+    "postbuild": "cp dist/index.html dist/404.html || copy dist/index.html dist/404.html",
+    "deploy": "vite build && npm run postbuild && gh-pages -d dist"
   },
   "dependencies": {
     "express": "^4.18.2",
