@@ -4,12 +4,7 @@ imporrd, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucid
 export de
                 <p className="text-xs text-muted-foreground">
-                  Time tracking made simple
-                </p>
-              </div>
-            </div>
-
-            {/* View Toggle */}
+                 le */}
             <div className="flex gap-2">
               <Button
                 variant={activeView === "timer" ? "default" : "outline"}
