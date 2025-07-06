@@ -3,6 +3,10 @@ import { Timer } from "@/components/Timer";
 imporrd, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucid
 export de
+
+                <h1 className="text-xl font-bold text-foreground">
+                  WorkTrackr
+                </h1>
                 <p className="text-xs text-muted-foreground">
                   Time tracking made simple
                 </p>
