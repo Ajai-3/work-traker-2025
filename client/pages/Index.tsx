@@ -2,12 +2,7 @@ import { useState } from "react";
 import { Timer } from "@/components/Timer";
 imporrd, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucid
-export default function Index() {
-  const [refreshKey, setRefreshKey] = useState(0);
-  const [activeView, setActiveView] = useState<"timer" | "dashboard">("timer");
-  const [dashboardSection, setDashboardSection] = useState<
-    "analytics" | "history"
-  >("analytics");
+export de
 
   const handleSessionUpdate = () => {
     setRefreshKey((prev) => prev + 1);
