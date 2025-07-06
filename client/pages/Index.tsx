@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Timer } from "@/components/Timer";
-imporrd, CardContent } from "@/components/ui/card";
+import { Analytics } from "@/components/Analytics";
+import { SessionList } from "@/components/SessionList";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucid
 export default function Index() {
   const [refreshKey, setRefreshKey] = useState(0);
