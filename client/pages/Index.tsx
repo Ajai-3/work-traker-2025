@@ -9,10 +9,6 @@ import { Clock, BarChart3, History } from "lucide-react";
 export default function Index() {
   const [r
 
-  const handleSessionUpdate = () => {
-    setRefreshKey((prev) => prev + 1);
-  };
-
   return (
     <div className="h-screen bg-background flex flex-col">
       {/* Header */}
