@@ -4,6 +4,11 @@ import { Analytics } from "@/components/Analytics";
 import { SessionList } from "@/components/SessionList";
 import { Button } from "@/components/ui/button";
 im
+  return (
+    <div classame="flex items-center gap-3">
+              <div className="p-2 rounded-lg bg-primary/20">
+                <Clock className="w-5 h-5 text-primary" />
+              </div>
               <div>
                 <h1 className="text-xl font-bold text-foreground">
                   WorkTrackr
