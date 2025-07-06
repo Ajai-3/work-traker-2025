@@ -4,7 +4,12 @@ imporrd, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucid
 export de
 
-  const han-background flex flex-col">
+  const handleSessionUpdate = () => {
+    setRefreshKey((prev) => prev + 1);
+  };
+
+  return (
+    <div className="h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b border-border bg-card/50 shrink-0">
         <div className="container mx-auto px-4 py-4">
