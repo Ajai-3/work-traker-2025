@@ -4,12 +4,6 @@ imporrd, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucid
 export de
 
-  const han-background flex flex-col">
-      {/* Headeflex items-center gap-3">
-              <div className="p-2 rounded-lg bg-primary/20">
-                <Clock className="w-5 h-5 text-primary" />
-              </div>
-              <div>
                 <h1 className="text-xl font-bold text-foreground">
                   WorkTrackr
                 </h1>
