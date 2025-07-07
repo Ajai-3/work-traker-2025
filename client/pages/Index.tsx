@@ -12,13 +12,7 @@ der */}
 
             {/* View Toggle */}
             <div className="flex gap-2">
-              <Button
-                variant={activeView === "timer" ? "default" : "outline"}
-                size="sm"
-                on
-              </Button>
-              <Button
-                variant={activeView === "dashboard" ? "default" : "outline"}
+              ant={activeView === "dashboard" ? "default" : "outline"}
                 size="sm"
                 onClick={() => setActiveView("dashboard")}
                 className="gap-2"
