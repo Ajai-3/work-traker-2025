@@ -7,7 +7,9 @@ import { Card, CardCo
 import { Clock, BarChart3, History } from "lucide-react";
 
 export default function Index() {
-  const [r() => {
+  const [refreshKey, setRefreshKey] = useState(0);
+  const
+  const handleSessionUpdate = () => {
     setRefreshKey((prev) => prev + 1);
   };
 
