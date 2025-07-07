@@ -8,11 +8,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 export default function Index() {
   const [refreshKey, setRefreshKey] = useState(0);
-  const [activeView, setActiveView] = useState<"timer" | "dashboard">("timer");
-  const [dashboardSection, setDashboardSection] = useState<
-    "analytics" | "history"
-  >("analytics");
-
+  const
   const handleSessionUpdate = () => {
     setRefreshKey((prev) => prev + 1);
   };
