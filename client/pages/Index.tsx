@@ -15,11 +15,7 @@ der */}
               <Button
                 variant={activeView === "timer" ? "default" : "outline"}
                 size="sm"
-                onClick={() => setActiveView("timer")}
-                className="gap-2"
-              >
-                <Clock className="w-4 h-4" />
-                Timer
+                on
               </Button>
               <Button
                 variant={activeView === "dashboard" ? "default" : "outline"}
