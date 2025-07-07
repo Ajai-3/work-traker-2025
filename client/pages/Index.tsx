@@ -10,12 +10,7 @@ der */}
       <header className="border-b border-border bg-card/50 shrink-0">
         <div cl
               <div>
-                <h1 className="text-xl font-bold text-foreground">
-                  WorkTrackr
-                </h1>
-                <p className="text-xs text-muted-foreground">
-                  Time tracking made simple
-                </p>
+           
               </div>
             </div>
 
