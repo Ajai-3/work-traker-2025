@@ -3,12 +3,16 @@ import { Timer } from "@/components/Timer";
 import { Analytics } from "@/components/Analytics";
 import { SessionList } from "@/components/SessionList";
 import { Button } from "@/components/ui/button";
-import { Card, CardCo
+import { Card, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
 export default function Index() {
   const [refreshKey, setRefreshKey] = useState(0);
-  const
+  const [activeView, setActiveView] = useState<"timer" | "dashboard">("timer");
+  const [dashboardSection, setDashboardSection] = useState<
+    "analytics" | "history"
+  >("analytics");
+
   const handleSessionUpdate = () => {
     setRefreshKey((prev) => prev + 1);
   };
