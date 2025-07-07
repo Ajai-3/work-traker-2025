@@ -6,7 +6,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardCo
     setRefreshKey((prev) => prev + 1);
   };
-der */}
+
+  return (
+    <div className="h-screen bg-background flex flex-col">
+      {/* Header */}
       <header className="border-b border-border bg-card/50 shrink-0">
         <div cl
               <div>
