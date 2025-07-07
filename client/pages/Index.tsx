@@ -11,12 +11,7 @@ import { Card, CardCo
     <div className="h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b border-border bg-card/50 shrink-0">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="p-2 rounded-lg bg-primary/20">
-                <Clock className="w-5 h-5 text-primary" />
-              </div>
+        <div cl
               <div>
                 <h1 className="text-xl font-bold text-foreground">
                   WorkTrackr
