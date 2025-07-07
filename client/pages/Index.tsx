@@ -3,7 +3,7 @@ import { Timer } from "@/components/Timer";
 import { Analytics } from "@/components/Analytics";
 import { SessionList } from "@/components/SessionList";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardCo
 import { Clock, BarChart3, History } from "lucide-react";
 
 export default function Index() {
