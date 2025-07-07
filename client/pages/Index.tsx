@@ -4,6 +4,10 @@ import { Analytics } from "@/components/Analytics";
 import { SessionList } from "@/components/SessionList";
 import { Button } from "@/components/ui/button";
 import { Card, CardCo
+import { Clock, BarChart3, History } from "lucide-react";
+
+export default function Index() {
+  const [r() => {
     setRefreshKey((prev) => prev + 1);
   };
 
