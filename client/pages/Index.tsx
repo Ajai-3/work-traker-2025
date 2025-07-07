@@ -8,11 +8,7 @@ import { Card, CardCo
   };
 der */}
       <header className="border-b border-border bg-card/50 shrink-0">
-        <div cl
-              <div>
-           
-              </div>
-            </div>
+        <div v>
 
             {/* View Toggle */}
             <div className="flex gap-2">
