@@ -5,7 +5,12 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 
 
-         
+                <Clock className="w-4 h-4" />
+          
+          < items-center justify-center p-4">
+            <div className="w-full max-w-lg">
+              <Timer onSessionUpdate={handleSessionUpdate} />
+
               {/* Mini Stats Below Timer */}
               <Card className="mt-6">
                 <CardContent className="p-4">
