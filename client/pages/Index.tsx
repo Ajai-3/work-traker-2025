@@ -5,12 +5,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 
 
-            {/* View Toggle */}
-            <div className="flex gap-2">
-              <Button
-                variant={activeView === "timer" ? "default" : "outline"}
-                size="sm"
-                onClick={() => setActiveView("timer")}
+            setActiveView("timer")}
                 className="gap-2"
               >
                 <Clock className="w-4 h-4" />
