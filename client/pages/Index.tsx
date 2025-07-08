@@ -7,7 +7,13 @@ import { Clock, BarChart3, History } from "lucide-react";
 3 gap-2"
                     >
                       <BarChart3 className="w-3 h-3" />
-             
+                      View Dashboard
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
         ) : (
           /* Dashboard View - Full Viewport Height with Subsections */
           <div className="h-full flex flex-col">
