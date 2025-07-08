@@ -4,16 +4,7 @@ irdContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
 
-
-         
-              {/* Mind view for detailed analytics and
-                      session history
-                    </p>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      onClick={() => setActiveView("dashboard")}
-                      className="mt-3 gap-2"
+3 gap-2"
                     >
                       <BarChart3 className="w-3 h-3" />
                       View Dashboard
