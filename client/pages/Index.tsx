@@ -1,11 +1,48 @@
 import { useState } from "react";
 import { Timer } from "@/components/Timer";
-irdContent } from "@/components/ui/card";
+import { Analytics } from "@/components/Analytics";
+import { SessionList } from "@/components/SessionList";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
+export default function Index() {
+  const [refreshKey, setRefreshKey] = useState(0);
+  const [activeView, setActiveView] = useState<"timer" | "dashboard">("timer");
+  const [dashboardSection, setDashboardSection] = useState<
+    "analytics" | "history"
+  >("analytics");
 
+  const handleSessionUpdate = () => {
+    setRefreshKey((prev) => prev + 1);
+  };
 
-            refactore setActiveView("timer")}
+  return (
+    <div className="h-screen bg-background flex flex-col">
+      {/* Header */}
+      <header className="border-b border-border bg-card/50 shrink-0">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-lg bg-primary/20">
+                <Clock className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <h1 className="text-xl font-bold text-foreground">
+                  WorkTrackr
+                </h1>
+                <p className="text-xs text-muted-foreground">
+                  Time tracking made simple
+                </p>
+              </div>
+            </div>
+
+            {/* View Toggle */}
+            <div className="flex gap-2">
+              <Button
+                variant={activeView === "timer" ? "default" : "outline"}
+                size="sm"
+                onClick={() => setActiveView("timer")}
                 className="gap-2"
               >
                 <Clock className="w-4 h-4" />
