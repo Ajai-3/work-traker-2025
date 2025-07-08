@@ -4,13 +4,6 @@ irdContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
 
-  return (
-    <div cle="flex items-center gap-3">
-              <div className="p-2 rounded-lg bg-primary/20">
-                <Clock className="w-5 h-5 
-                </p>
-              </div>
-            </div>
 
             {/* View Toggle */}
             <div className="flex gap-2">
