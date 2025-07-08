@@ -7,11 +7,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
                 <Clock className="w-4 h-4" />
           
-          <
-      <main className="flex-1 overflow-hidden">
-        {activeView === "timer" ? (
-          /* Timer View - Centered */
-          <div className="h-full flex items-center justify-center p-4">
+          < items-center justify-center p-4">
             <div className="w-full max-w-lg">
               <Timer onSessionUpdate={handleSessionUpdate} />
 
