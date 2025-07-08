@@ -5,9 +5,6 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 
 
-            setActiveView("timer")}
-                className="gap-2"
-              >
                 <Clock className="w-4 h-4" />
                 Timer
               </Button>
