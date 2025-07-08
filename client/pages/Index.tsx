@@ -7,11 +7,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
                 <Clock className="w-4 h-4" />
              tActiveView("dashboard")}
-                className="gap-2"
-              >
-                <BarChart3 className="w-4 h-4" />
-                Dashboard
-              </Button>
+              
             </div>
           </div>
         </div>
