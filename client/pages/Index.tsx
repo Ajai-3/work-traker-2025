@@ -6,12 +6,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 
                 <Clock className="w-4 h-4" />
-                Timer
-              </Button>
-              <Button
-                variant={activeView === "dashboard" ? "default" : "outline"}
-                size="sm"
-                onClick={() => setActiveView("dashboard")}
+             tActiveView("dashboard")}
                 className="gap-2"
               >
                 <BarChart3 className="w-4 h-4" />
