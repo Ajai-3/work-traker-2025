@@ -6,13 +6,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 
          
-              {/* Mini Stats Below Timer */}
-              <Card className="mt-6">
-                <CardContent className="p-4">
-                  <div className="text-center">
-                    <h3 className="font-medium mb-2 text-sm">Quick Overview</h3>
-                    <p className="text-xs text-muted-foreground">
-                      Switch to Dashboard view for detailed analytics and
+              {/* Mind view for detailed analytics and
                       session history
                     </p>
                     <Button
