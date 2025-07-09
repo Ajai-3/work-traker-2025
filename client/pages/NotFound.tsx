@@ -6,6 +6,13 @@ import { useEffect } from "react";
       "404 Error: User attempted to access non-existent route:",
       location.pathname,
     );
+  }, [location.pathname]);
+04</h1>
+        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
+        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
+          Return to Home
+        </a>
+      </div>
     </div>
   );
 };
