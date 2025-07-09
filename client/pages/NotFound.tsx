@@ -1,2 +1,3 @@
 import { useLocation } from "react-router-dom";
-i;
+import { useEffect } from "react";
+efault NotFound;
