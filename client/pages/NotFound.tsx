@@ -5,5 +5,9 @@ import { useEffect } from "react";
     console.error(
       "404 Error: User attempted to access non-existent route:",
       location.pathname,
-   
+    );
+    </div>
+  );
+};
+
 export default NotFound;
