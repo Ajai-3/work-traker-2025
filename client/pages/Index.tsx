@@ -3,10 +3,7 @@ import { Timer } from "@/components/Timer";
 irdContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
-export default function Index() {
-  const [View, setActiveView] = useState<"timer" | "dashboard">("timer");
-
-  const handleSessionUpdate = () => {
+export date = () => {
     setRefreshKey((prev) => prev + 1);
   };
 
