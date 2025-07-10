@@ -6,12 +6,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 exe tracking made simple
               flex gap-2">
               <Button
-                variant={activeView === "timer" ? "default" : "outline"}
-               className="w-4 h-4" />
-                Timer
-              </Button>
-              <Button
-                variant={activeView === "dashboard" ? "default" : "outline"}
+             iveView === "dashboard" ? "default" : "outline"}
                 size="sm"
                 onClick={() => setActiveView("dashboard")}
                 className="gap-2"
