@@ -5,4 +5,5 @@ Error: User attempted to access non-existent route:",
       </
   );
 };
-lt NotFound;
+
+export default NotFound;
