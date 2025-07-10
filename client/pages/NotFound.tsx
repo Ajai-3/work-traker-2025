@@ -6,7 +6,7 @@ const NotFound = () => {
 
   useEffect(() => {
     console.error(
-      dvxv4 Error: User attempted to access non-existent route:",
+      4 Error: User attempted to access non-existent route:",
       location.pathname
     );
   }, [location.pathname]);
