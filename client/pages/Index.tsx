@@ -3,10 +3,7 @@ import { Timer } from "@/components/Timer";
 irdContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
-export date = () => {
-    setRe
-    <div classNaame="text-xs text-muted-foreground">
-                  Time tracking made simple
+exe tracking made simple
               flex gap-2">
               <Button
                 variant={activeView === "timer" ? "default" : "outline"}
