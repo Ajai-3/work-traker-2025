@@ -7,12 +7,7 @@ export date = () => {
     setRe
     <div classNaame="text-xs text-muted-foreground">
                   Time tracking made simple
-                </p>
-              </div>
-            </div>
-
-            {/* View Toggle */}
-            <div className="flex gap-2">
+              flex gap-2">
               <Button
                 variant={activeView === "timer" ? "default" : "outline"}
                 size="sm"
