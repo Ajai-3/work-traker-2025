@@ -4,10 +4,7 @@ irdContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
 export date = () => {
-    setRefreshKey((prev) => prev + 1);
-  };
-
-  return (
+    setRe
     <div className="h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b border-border bg-card/50 shrink-0">
