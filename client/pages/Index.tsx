@@ -5,11 +5,7 @@ import { Clock, BarChart3, History } from "lucide-react";
 
 export date = () => {
     setRe
-    <div className="h-screen bg-background flex flex-col">
-      {/* Header */}-auto px-4 py-4">
-          r
-                </h1>
-                <p className="text-xs text-muted-foreground">
+    <div classNaame="text-xs text-muted-foreground">
                   Time tracking made simple
                 </p>
               </div>
