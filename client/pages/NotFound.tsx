@@ -1,8 +1,5 @@
 import { u
-
-const No(() => {
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
+Error: User attempted to access non-existent route:",
       location.pathname
     );
   }, [location.pathname]);
