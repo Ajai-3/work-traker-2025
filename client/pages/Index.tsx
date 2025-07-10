@@ -7,11 +7,7 @@ export date = () => {
     setRe
     <div className="h-screen bg-background flex flex-col">
       {/* Header */}-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div
-              <div>
-                <h1 className="text-xl font-bold text-foreground">
-                  WorkTrackr
+          r
                 </h1>
                 <p className="text-xs text-muted-foreground">
                   Time tracking made simple
