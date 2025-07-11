@@ -10,12 +10,7 @@ ird
 
             {/* D
               ) : (
-                <div className="h-full flex flex-col">
-                  <div className="px-6 py-3 border-b border-border/50 bg-muted/20">
-                    <p className="text-sm text-muted-foreground">
-                      Review your recent work sessions
-                    </p>
-                  </div>
+                <div classNa
                   <div className="flex-1 overflow-hidden p-6">
                     <SessionList
                       refreshKey={refreshKey}
