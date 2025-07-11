@@ -5,12 +5,7 @@ ird
 
       {/* Main Content */}
       <main className="flex-1 overflow-hidden">
-        {activeVie
-                 
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
+        {>
             </div>
           </div>
         ) : (
