@@ -4,15 +4,7 @@ ird
       </header>
 
       {/* Main Content */}bs */}
-            <div className="px-6 py-4 border-b border-border bg-card/30">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <BarChart3 className="w-5 h-5 text-primary" />
-                  <h2 className="text-lg font-semibold">Dashboard</h2>
-                </div>
-
-                {/* Subsection Tabs */}
-                <div className="flex gap-2">
+            <div className="px-6 py-4 border-
                   <Button
                     variant={
                       dashboardSection === "analytics" ? "default" : "outline"
