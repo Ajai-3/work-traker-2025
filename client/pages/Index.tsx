@@ -5,11 +5,7 @@ ird
 
       {/* M
                   <2"
-
-            {/* D
-              ) : (
-                <div classNa
-                  <div className="flex-1 overflow-hidden p-6">
+e="flex-1 overflow-hidden p-6">
                     <SessionList
                       refreshKey={refreshKey}
                       onSessionsUpdate={handleSessionUpdate}
