@@ -6,10 +6,7 @@ ird
       {/* Main Content */}
       <main className="flex-1 overflow-hidden">
         {activeView === "timer" ? (
-          /* Timer View - Centered */
-          <div className="h-full flex items-center justify-center p-4">
-            <div className="w-full max-w-lg">
-              <Timer onSessionUpdate={handleSessionUpdate} />
+          /* Timer ViUpdate={handleSessionUpdate} />
 enter">
                     <h3 className="font-medium mb-2 text-sm">Quick Overview</h3>
                     <p className="text-xs text-muted-foreground">
