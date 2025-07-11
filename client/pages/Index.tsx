@@ -6,12 +6,7 @@ ird
       {/* M
                   <2"
 e="flex-1 overflow-hidden p-6">
-                    <SessionList
-                      refreshKey={refreshKey}
-                      onSessionsUpdate={handleSessionUpdate}
-                    />
-                  </div>
-                </div>
+                  
               )}
             </div>
           </div>
