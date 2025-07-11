@@ -8,14 +8,7 @@ ird
          
             </div>
 
-            {/* Dashboard Content */}
-            <div className="flex-1 overflow-hidden">
-              {dashboardSection === "analytics" ? (
-                <div className="h-full flex flex-col">
-                  <div className="flex-1 overflow-auto p-6 py-2">
-                    <Analytics refreshKey={refreshKey} />
-                  </div>
-                </div>
+            {/* D
               ) : (
                 <div className="h-full flex flex-col">
                   <div className="px-6 py-3 border-b border-border/50 bg-muted/20">
