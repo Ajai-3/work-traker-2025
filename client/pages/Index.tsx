@@ -4,9 +4,3 @@ ird
       </header>
 
       {/* M
-                  <2"
-e="flex-1 overflow-hidden p-6">
-             
-    </div>
-  );
-}
