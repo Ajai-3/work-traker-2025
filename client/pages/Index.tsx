@@ -1,15 +1,6 @@
 import { useState } from "react";
 import { Timer } from "@/components/Timer";
-irdContent } from "@/components/ui/card";
-import { Clock, BarChart3, History } from "lucide-react";
-
-exe tracking
-                <BarChart3 className="w-4 h-4" />
-                Dashboard
-              </Button>
-            </div>
-          </div>
-        </div>
+ird
       </header>
 
       {/* Main Content */}
