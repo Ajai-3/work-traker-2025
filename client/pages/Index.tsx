@@ -3,13 +3,7 @@ import { Timer } from "@/components/Timer";
 ird
       </header>
 
-      {/* Main Content */}bs */}
-            <div className="px-6 py-4 border-
-                  <Button
-                    variant={
-                    <BarChart3 className="w-4 h-4" />
-                    Analytics
-                  </Button>
+      {/* M
                   <Button
                     variant={
                       dashboardSection === "history" ? "default" : "outline"
