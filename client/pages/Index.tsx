@@ -3,12 +3,7 @@ import { Timer } from "@/components/Timer";
 irdContent } from "@/components/ui/card";
 import { Clock, BarChart3, History } from "lucide-react";
 
-exe tracking made simple
-              flex gap-2">
-              <Button
-             iveV() => setActiveView("dashboard")}
-                className="gap-2"
-              >
+exe tracking
                 <BarChart3 className="w-4 h-4" />
                 Dashboard
               </Button>
