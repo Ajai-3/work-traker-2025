@@ -3,15 +3,7 @@ import { Timer } from "@/components/Timer";
 ird
       </header>
 
-      {/* Main Content */}
-      <main className="flex-1 overflow-hidden">
-        {>
-            </div>
-          </div>
-        ) : (
-          /* Dashboard View - Full Viewport Height with Subsections */
-          <div className="h-full flex flex-col">
-            {/* Dashboard Header with Subsection Tabs */}
+      {/* Main Content */}bs */}
             <div className="px-6 py-4 border-b border-border bg-card/30">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
