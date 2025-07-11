@@ -6,14 +6,7 @@ ird
       {/* Main Content */}
       <main className="flex-1 overflow-hidden">
         {activeVie
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      onClick={() => setActiveView("dashboard")}
-                      className="mt-3 gap-2"
-                    >
-                      <BarChart3 className="w-3 h-3" />
-                      View Dashboard
+                 
                     </Button>
                   </div>
                 </CardContent>
