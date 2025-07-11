@@ -4,13 +4,7 @@ ird
       </header>
 
       {/* M
-                  <Button
-                    variant={
-                      dashboardSection === "history" ? "default" : "outline"
-                    }
-                    size="sm"
-                    onClick={() => setDashboardSection("history")}
-                    className="gap-2"
+                  <2"
                   >
                     <History className="w-4 h-4" />
                     History
