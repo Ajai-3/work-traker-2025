@@ -7,12 +7,6 @@ ird
             <div className="px-6 py-4 border-
                   <Button
                     variant={
-                      dashboardSection === "analytics" ? "default" : "outline"
-                    }
-                    size="sm"
-                    onClick={() => setDashboardSection("analytics")}
-                    className="gap-2"
-                  >
                     <BarChart3 className="w-4 h-4" />
                     Analytics
                   </Button>
