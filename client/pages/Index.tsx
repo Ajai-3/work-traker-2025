@@ -10,11 +10,7 @@ ird
           <div className="h-full flex items-center justify-center p-4">
             <div className="w-full max-w-lg">
               <Timer onSessionUpdate={handleSessionUpdate} />
-
-              {/* Mini Stats Below Timer */}
-              <Card className="mt-6">
-                <CardContent className="p-4">
-                  <div className="text-center">
+enter">
                     <h3 className="font-medium mb-2 text-sm">Quick Overview</h3>
                     <p className="text-xs text-muted-foreground">
                       Switch to Dashboard view for detailed analytics and
