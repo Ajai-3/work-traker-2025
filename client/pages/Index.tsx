@@ -1,2 +1,1 @@
-import { useState } from "react";
-import { Timer } from "@/components/Timer";
+t { Timer } from "@/components/Timer";
