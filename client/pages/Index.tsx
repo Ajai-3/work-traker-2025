@@ -5,14 +5,7 @@ ird
 
       {/* Main Content */}
       <main className="flex-1 overflow-hidden">
-        {activeView === "timer" ? (
-          /* Timer ViUpdate={handleSessionUpdate} />
-enter">
-                    <h3 className="font-medium mb-2 text-sm">Quick Overview</h3>
-                    <p className="text-xs text-muted-foreground">
-                      Switch to Dashboard view for detailed analytics and
-                      session history
-                    </p>
+        {activeVie
                     <Button
                       variant="outline"
                       size="sm"
