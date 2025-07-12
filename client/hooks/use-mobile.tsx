@@ -1,3 +1,5 @@
 import * as React from "react";
 
-c;
+const MOBILE_BREAKPOINT = 768;
+
+exp;
