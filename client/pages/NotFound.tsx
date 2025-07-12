@@ -6,9 +6,6 @@ consonsole.error(
       location.pathname
     ); 
         </a>
-      </div>
-    </div>
-  );
-};
+      </div> 
 
 export default NotFound;
