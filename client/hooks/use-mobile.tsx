@@ -4,9 +4,6 @@ c
 
   React.useEffect(() => {
     const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
-    const onChange = () => {
-      se removeEventListener("change", onChange);
-  }, []);
-
+    c 
   return !!isMobile;
 }
