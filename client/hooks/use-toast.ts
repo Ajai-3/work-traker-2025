@@ -21,9 +21,7 @@ const actionTypes = {
 functing();
 }
 
-type ActionType = typeof actionTypes;
-
-type Action =
+type 
   | {
       type: ActionType["ADD_TOAST"];
       toast: ToasterToast;
