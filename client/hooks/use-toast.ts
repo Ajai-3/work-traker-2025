@@ -13,14 +13,7 @@ type ToasterToast = ToastProps & {
 };
 zxczxczxc
 
-    case "DISMISS_TOAST": {
-      const { toastId } = action;
-zxczxce(toast.id);
-        });
-      }
-
-      return {
-        ...state,
+    case "zxczxczxc
         toasts: state.toasts.map((t) =>
           t.id === toastId || toastId === undefined
             ? {
