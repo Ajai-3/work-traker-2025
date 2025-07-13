@@ -12,13 +12,7 @@ type ToasterToast = ToastProps & {
   aczxczxczxc;
 };zczxc
   const dismiss = () => dispatch({ type: "DISMISS_TOAST", toastId: id });
-
-  dispatch({
-    type: "ADD_TOAST",
-    toast: {
-      ...props,
-      id,
-      open: true,
+zxczxcz
       onOpenChange: (open) => {
         if (!open) dismiss();
       },
