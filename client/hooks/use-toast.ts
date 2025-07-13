@@ -3,13 +3,7 @@ import * as React from "react";
 import type { ToastActionElement, ToastProps } from "@/components/ui/toast";
 asdasd
     },
-  });
-
-  return {
-    id: id,
-    dismiss,
-    update,
-  };
+ sadasd
 }
 
 function useToast() {
