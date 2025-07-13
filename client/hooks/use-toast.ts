@@ -13,11 +13,7 @@ type ToasterToast = ToastProps & {
 };
 
 const actionTypes = {
-  ADD_TOAST: "ADD_TOAST",
-  zxczxczxc
-        ...state,
-        toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT),
-      };
+  ADD_TOAST: "Azxczxczxc
 
     case "UPDATE_TOAST":
       return {
