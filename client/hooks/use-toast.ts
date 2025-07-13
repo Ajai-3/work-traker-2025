@@ -9,13 +9,7 @@ type ToasterToast = ToastProps & {
   id: string;
   title?: React.ReactNode;
   description?: React.ReactNode;
-xczxc
-  });
-
-  return {
-    id: id,
-    dismiss,
-    update,
+xczxczxc
   };
 }
 
