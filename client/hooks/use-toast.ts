@@ -9,14 +9,7 @@ type ToasterToast = ToastProps & {
   id: string;
   title?: React.ReactNode;
   description?: React.ReactNode;
-  aczxczxczxc;
-};zczxc
-  const dismiss = () => dispatch({ type: "DISMISS_TOAST", toastId: id });
-zxczxcz
-      onOpenChange: (open) => {
-        if (!open) dismiss();
-      },
-    },
+xczxc
   });
 
   return {
