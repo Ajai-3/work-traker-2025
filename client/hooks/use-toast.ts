@@ -15,14 +15,7 @@ type ToasterToast = ToastProps & {
 const actionTypes = {
   ADD_TOAST: "ADD_TOAST",
   UPDATE_TOAST: "UPDATE_TOAST",
-  DISMISS_TOAST: "DISMISS_TOAST",
-  REMOVE_TOAST: "REMOVE_TOAST",
-} as czxczxczxcas(toastId)) {
-    return;
-  }
-
-  const timeout = setTimeout(() => {
-    toastTimeouts.delete(toastId);
+ zxczxclete(toastId);
     dispatch({
       type: "REMOVE_TOAST",
       toastId: toastId,
