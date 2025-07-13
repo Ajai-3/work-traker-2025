@@ -16,13 +16,7 @@ const actionTypes = {
   ADD_TOAST: "ADD_TOAST",
   UPDATE_TOAST: "UPDATE_TOAST",
  zxczxclete(toastId);
-    dispatch({
-      type: "REMOVE_TOAST",
-      toastId: toastId,
-    });
-  }, TOAST_REMOVE_DELAY);
-
-  toastTimeouts.set(toastId, timeout);
+    dispatch({zxczxczxcd, timeout);
 };
 
 export const reducer = (state: State, action: Action): State => {
