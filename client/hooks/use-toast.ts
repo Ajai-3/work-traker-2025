@@ -21,10 +21,7 @@ const actionTypes = {
 functing();
 }
 
-type 
-  | {
-      type: ActionType["ADD_TOAST"];
-      toast: ToasterToast;
+typxzcrToast;
     }
   | {
       type: ActionType["UPDATE_TOAST"];
