@@ -18,9 +18,7 @@ const actionTypes = {
   DISMISS_TOAST: "DISMISS_TOAST",
   REMOVE_TOAST: "REMOVE_TOAST",
 } as const;
-function genId() {
-  count = (count + 1) % Number.MAX_SAFE_INTEGER;
-  return count.toString();
+functing();
 }
 
 type ActionType = typeof actionTypes;
