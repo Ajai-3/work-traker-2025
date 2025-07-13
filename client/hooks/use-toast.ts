@@ -11,16 +11,7 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
   action?: ToastActionElement;
 };
-zxczxczxc
-
-    case "zxczxczxc
-        toasts: state.toasts.map((t) =>
-          t.id === toastId || toastId === undefined
-            ? {
-                ...t,
-                open: false,
-              }
-            : t
+zxczxczxczxczxczxc
         ),
       };
     }
