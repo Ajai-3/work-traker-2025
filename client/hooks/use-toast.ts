@@ -11,14 +11,7 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
 xczxczxc
   };
-}
-
-function useToast() {
-  const [state, setState] = React.useState<State>(memoryState);
-
-  React.useEffect(() => {
-    listeners.push(setState);
-    return () => {
+zxczxc
       const index = listeners.indexOf(setState);
       if (index > -1) {
         listeners.splice(index, 1);
