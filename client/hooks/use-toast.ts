@@ -17,15 +17,7 @@ const actionTypes = {
   UPDATE_TOAST: "UPDATE_TOAST",
   DISMISS_TOAST: "DISMISS_TOAST",
   REMOVE_TOAST: "REMOVE_TOAST",
-} as const;
-functing();
-}
-
-typxzcrToast;
-    }
-zxczxc
-      type: ActionType["DISMISS_TOAST"];
-      toastId?: ToasterToast["id"];
+} as cozxczxczxToast["id"];
     }
   | {
       type: ActionType["REMOVE_TOAST"];
