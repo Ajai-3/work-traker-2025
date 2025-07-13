@@ -12,12 +12,7 @@ type ToasterToast = ToastProps & {
   aczxczxczxc;
 };
 zxczxc;
-
-type Toast = Omit<ToasterToast, "id">;
-
-function toast({ ...props }: Toast) {
-  const id = genId();
-
+zxczxc
   const update = (props: ToasterToast) =>
     dispatch({
       type: "UPDATE_TOAST",
