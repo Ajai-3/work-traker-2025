@@ -11,17 +11,7 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
   action?: ToastActionElement;
 };
-
-const actionTypes = {
-  ADD_TOAST: "Azxczxczxc
-
-    case "UPDATE_TOAST":
-      return {
-        ...state,
-        toasts: state.toasts.map((t) =>
-          t.id === action.toast.id ? { ...t, ...action.toast } : t
-        ),
-      };
+zxczxczxc
 
     case "DISMISS_TOAST": {
       const { toastId } = action;
