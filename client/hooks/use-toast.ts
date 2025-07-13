@@ -3,14 +3,7 @@ import * as React from "react";
 import type { ToastActionElement, ToastProps } from "@/components/ui/toast";
 asdasd
     },
- sadasd
-}
-
-function useToast() {
-  const [state, setState] = React.useState<State>(memoryState);
-
-  React.useEffect(() => {
-    listeners.push(setState);
+ sadasdasdasdasd
     return () => {
       const index = listeners.indexOf(setState);
       if (index > -1) {
