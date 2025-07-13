@@ -23,11 +23,7 @@ functing();
 
 typxzcrToast;
     }
-  | {
-      type: ActionType["UPDATE_TOAST"];
-      toast: Partial<ToasterToast>;
-    }
-  | {
+zxczxc
       type: ActionType["DISMISS_TOAST"];
       toastId?: ToasterToast["id"];
     }
