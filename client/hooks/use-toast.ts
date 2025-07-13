@@ -11,7 +11,4 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
 zczxc
   }, [state]);
-
-  return {
 zxczxc
-export { useToast, toast };
