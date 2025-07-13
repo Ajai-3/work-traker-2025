@@ -11,13 +11,7 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
   aczxczxczxc;
 };
-
-function dispatch(action: Action) {
-  memoryState = reducer(memoryState, action);
-  listeners.forEach((listener) => {
-    listener(memoryState);
-  });
-}
+zxczxc;
 
 type Toast = Omit<ToasterToast, "id">;
 
